@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-scrollbar {
+    max-height: 15rem; /* Adjust the height as needed */
+    overflow-y: auto;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* IE 10+ */
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+  }
+
+ 
